@@ -1,9 +1,9 @@
 node{
     
-   stage('clone java project') {
+   stage('clone maha java project') {
     git branch: 'main', url: 'https://github.com/Mahay12345/DevOps_7PM_Batch.git'
 }
 
-stage('Build mavan') {
+stage('Build Maha Mavan') {
     sh 'mvn install'
 }
