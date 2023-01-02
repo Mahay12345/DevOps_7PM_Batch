@@ -1,6 +1,6 @@
 node{
     
-   stage('clone maha java project') {
+   stage('clone Maha java project') {
     git branch: 'main', url: 'https://github.com/Mahay12345/DevOps_7PM_Batch.git'
 }
 
